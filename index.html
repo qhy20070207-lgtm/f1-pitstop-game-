@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 极速进站小游戏</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>🏁 F1 极速进站挑战</h1>
+        
+        <div class="game-area">
+            <div id="status" class="status-message">点击 “开始进站” 按钮</div>
+            <div id="timer" class="timer">时间: 0.000 秒</div>
+            <button id="startButton">开始进站</button>
+
+            <div class="car">
+                <div class="wheel-slot" id="wheel-FL">前左轮 (FL)</div>
+                <div class="wheel-slot" id="wheel-FR">前右轮 (FR)</div>
+                <div class="wheel-slot" id="wheel-RL">后左轮 (RL)</div>
+                <div class="wheel-slot" id="wheel-RR">后右轮 (RR)</div>
+            </div>
+            
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
